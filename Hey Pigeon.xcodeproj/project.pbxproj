@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD2FF6B225C5DDD9008E881D /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FF6B025C5DDD9008E881D /* MapScreen.swift */; };
+		DD2FF6B325C5DDD9008E881D /* MapScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2FF6B125C5DDD9008E881D /* MapScreen.xib */; };
+		DD2FF6B925C61350008E881D /* StationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FF6B725C61350008E881D /* StationInfoViewController.swift */; };
+		DD2FF6BA25C61350008E881D /* StationInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2FF6B825C61350008E881D /* StationInfoViewController.xib */; };
+		DD2FF6C825C64A40008E881D /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FF6C625C64A40008E881D /* BookingViewController.swift */; };
+		DD2FF6C925C64A40008E881D /* BookingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2FF6C725C64A40008E881D /* BookingViewController.xib */; };
+		DD2FF6E325C6666E008E881D /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FF6E225C6666E008E881D /* SubmitViewController.swift */; };
+		DD2FF6E825C68B14008E881D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2FF6E725C68B14008E881D /* LocationManager.swift */; };
 		DD371F7A25C5B61300A5699C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD371F7925C5B61300A5699C /* AppDelegate.swift */; };
 		DD371F7C25C5B61300A5699C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD371F7B25C5B61300A5699C /* SceneDelegate.swift */; };
 		DD371F7E25C5B61300A5699C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD371F7D25C5B61300A5699C /* ViewController.swift */; };
@@ -35,7 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD371F7625C5B61300A5699C /* Drone Drama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drone Drama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2FF6B025C5DDD9008E881D /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		DD2FF6B125C5DDD9008E881D /* MapScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapScreen.xib; sourceTree = "<group>"; };
+		DD2FF6B725C61350008E881D /* StationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfoViewController.swift; sourceTree = "<group>"; };
+		DD2FF6B825C61350008E881D /* StationInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationInfoViewController.xib; sourceTree = "<group>"; };
+		DD2FF6C625C64A40008E881D /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		DD2FF6C725C64A40008E881D /* BookingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookingViewController.xib; sourceTree = "<group>"; };
+		DD2FF6E225C6666E008E881D /* SubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		DD2FF6E725C68B14008E881D /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		DD371F7625C5B61300A5699C /* Hey Pigeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hey Pigeon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD371F7925C5B61300A5699C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD371F7B25C5B61300A5699C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD371F7D25C5B61300A5699C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,7 +105,7 @@
 		DD371F7725C5B61300A5699C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD371F7625C5B61300A5699C /* Drone Drama.app */,
+				DD371F7625C5B61300A5699C /* Hey Pigeon.app */,
 				DD371F8C25C5B61700A5699C /* Drone DramaTests.xctest */,
 				DD371F9725C5B61700A5699C /* Drone DramaUITests.xctest */,
 			);
@@ -103,9 +119,17 @@
 				DD371F7B25C5B61300A5699C /* SceneDelegate.swift */,
 				DD371F7D25C5B61300A5699C /* ViewController.swift */,
 				DD371F7F25C5B61300A5699C /* Main.storyboard */,
+				DD2FF6B025C5DDD9008E881D /* MapScreen.swift */,
+				DD2FF6E225C6666E008E881D /* SubmitViewController.swift */,
+				DD2FF6B725C61350008E881D /* StationInfoViewController.swift */,
+				DD2FF6B825C61350008E881D /* StationInfoViewController.xib */,
+				DD2FF6B125C5DDD9008E881D /* MapScreen.xib */,
 				DD371F8225C5B61600A5699C /* Assets.xcassets */,
 				DD371F8425C5B61600A5699C /* LaunchScreen.storyboard */,
 				DD371F8725C5B61600A5699C /* Info.plist */,
+				DD2FF6C625C64A40008E881D /* BookingViewController.swift */,
+				DD2FF6E725C68B14008E881D /* LocationManager.swift */,
+				DD2FF6C725C64A40008E881D /* BookingViewController.xib */,
 			);
 			path = "Drone Drama";
 			sourceTree = "<group>";
@@ -145,7 +169,7 @@
 			);
 			name = "Drone Drama";
 			productName = "Drone Drama";
-			productReference = DD371F7625C5B61300A5699C /* Drone Drama.app */;
+			productReference = DD371F7625C5B61300A5699C /* Hey Pigeon.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DD371F8B25C5B61700A5699C /* Drone DramaTests */ = {
@@ -206,7 +230,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD371F7125C5B61300A5699C /* Build configuration list for PBXProject "Drone Drama" */;
+			buildConfigurationList = DD371F7125C5B61300A5699C /* Build configuration list for PBXProject "Hey Pigeon" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,6 +255,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2FF6C925C64A40008E881D /* BookingViewController.xib in Resources */,
+				DD2FF6BA25C61350008E881D /* StationInfoViewController.xib in Resources */,
+				DD2FF6B325C5DDD9008E881D /* MapScreen.xib in Resources */,
 				DD371F8625C5B61600A5699C /* LaunchScreen.storyboard in Resources */,
 				DD371F8325C5B61600A5699C /* Assets.xcassets in Resources */,
 				DD371F8125C5B61300A5699C /* Main.storyboard in Resources */,
@@ -258,8 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2FF6E325C6666E008E881D /* SubmitViewController.swift in Sources */,
+				DD2FF6B225C5DDD9008E881D /* MapScreen.swift in Sources */,
 				DD371F7E25C5B61300A5699C /* ViewController.swift in Sources */,
+				DD2FF6B925C61350008E881D /* StationInfoViewController.swift in Sources */,
+				DD2FF6E825C68B14008E881D /* LocationManager.swift in Sources */,
 				DD371F7A25C5B61300A5699C /* AppDelegate.swift in Sources */,
+				DD2FF6C825C64A40008E881D /* BookingViewController.swift in Sources */,
 				DD371F7C25C5B61300A5699C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,9 +476,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Drone-Drama";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hey Pigeon";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -463,9 +495,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Personal.Drone-Drama";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Hey Pigeon";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -556,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD371F7125C5B61300A5699C /* Build configuration list for PBXProject "Drone Drama" */ = {
+		DD371F7125C5B61300A5699C /* Build configuration list for PBXProject "Hey Pigeon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD371F9E25C5B61700A5699C /* Debug */,
